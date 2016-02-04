@@ -35,6 +35,8 @@ class Email extends CI_Controller
         $this->email->subject('this is a test');
         $this->email->message('it is working .... great!');
 
+        $path = $this->config->item('server_root');
+
         if($this->email->send())
         {
             echo 'your email was sent';
