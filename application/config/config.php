@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/advancedsystme/';
+$config['base_url'] = 'http://benoats.co/university/cms-system/';
 
 $config['server_root'] = $_SERVER['DOCUMENT_ROOT'];
 
